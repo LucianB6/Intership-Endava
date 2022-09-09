@@ -1,0 +1,490 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4660693000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "1 Verify that I can see a product page",
+        "description": "",
+        "id": "search-for-laptops-on-emag;1-verify-that-i-can-see-a-product-page",
+        "after": [
+          {
+            "result": {
+              "duration": 846675000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4857091000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on emag page",
+            "match": {
+              "location": "JunitStepDefs.that_i_am_on_emag_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5339171000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to the Laptops page",
+            "match": {
+              "location": "JunitStepDefs.iGoToTheLaptopsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1129074100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the first laptop",
+            "match": {
+              "location": "JunitStepDefs.iClickOnTheFirstLaptop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158656900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The Item Page will display the \"Adauga la Favorite\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adauga la Favorite",
+                  "offset": 32
+                }
+              ],
+              "location": "JunitStepDefs.theItemPageWillDisplayTheButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1946100100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "2 Verify that search will open the correct page",
+        "description": "",
+        "id": "search-for-laptops-on-emag;2-verify-that-search-will-open-the-correct-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1009856600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3933894700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "that i am on emag page",
+            "match": {
+              "location": "JunitStepDefs.that_i_am_on_emag_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830118200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for \"laptop\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 14
+                }
+              ],
+              "location": "JunitStepDefs.iSearchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2305781500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the first item",
+            "match": {
+              "location": "JunitStepDefs.iClickOnTheFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173204500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Item Page will display the \"Adauga la Favorite\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adauga la Favorite",
+                  "offset": 32
+                }
+              ],
+              "location": "JunitStepDefs.theItemPageWillDisplayTheButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2345997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "3 Verify that search result elements are in correct order",
+        "description": "",
+        "id": "search-for-laptops-on-emag;3-verify-that-search-result-elements-are-in-correct-order",
+        "after": [
+          {
+            "result": {
+              "duration": 908886700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4662166600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "that i am on emag page",
+            "match": {
+              "location": "JunitStepDefs.that_i_am_on_emag_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1937596200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I search for \"laptop\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 14
+                }
+              ],
+              "location": "JunitStepDefs.iSearchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420046900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I order the results by \"Pret descrescator\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pret descrescator",
+                  "offset": 24
+                }
+              ],
+              "location": "JunitStepDefs.iOrderTheResultsBy(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45449000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Order list was changed",
+            "match": {
+              "location": "JunitStepDefs.order_list_was_changed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2725647700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "4 Verify that search will open the correct page",
+        "description": "",
+        "id": "search-for-laptops-on-emag;4-verify-that-search-will-open-the-correct-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1013209700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4264194700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "that i am on emag page",
+            "match": {
+              "location": "JunitStepDefs.that_i_am_on_emag_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2326840200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I search for \"tv\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tv",
+                  "offset": 14
+                }
+              ],
+              "location": "JunitStepDefs.iSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1901949000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the first item",
+            "match": {
+              "location": "JunitStepDefs.iClickOnTheFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343393400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The Item Page will display the \"Adauga la Favorite\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adauga la Favorite",
+                  "offset": 32
+                }
+              ],
+              "location": "JunitStepDefs.theItemPageWillDisplayTheButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tags"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2283617400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "4 Verify that search will open the correct page",
+        "description": "",
+        "id": "search-for-laptops-on-emag;4-verify-that-search-will-open-the-correct-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 917473000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JunitStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4216470000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "that i am on emag page",
+            "match": {
+              "location": "JunitStepDefs.that_i_am_on_emag_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2065185600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I search for \"phone\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "phone",
+                  "offset": 14
+                }
+              ],
+              "location": "JunitStepDefs.iSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1668249800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the first item",
+            "match": {
+              "location": "JunitStepDefs.iClickOnTheFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373990500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The Item Page will display the \"Adauga la Favorite\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adauga la Favorite",
+                  "offset": 32
+                }
+              ],
+              "location": "JunitStepDefs.theItemPageWillDisplayTheButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tags"
+          }
+        ]
+      }
+    ],
+    "name": "Search for laptops on Emag",
+    "description": "",
+    "id": "search-for-laptops-on-emag",
+    "keyword": "Feature",
+    "uri": "Selenium.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tags"
+      }
+    ]
+  }
+]
